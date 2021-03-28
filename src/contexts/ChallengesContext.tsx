@@ -8,15 +8,15 @@ interface Challenge {
 
 }
 interface ChallengesContextData {
-    level: number,
-    currentExperience: number,
-    experienceToNextLevel: number,
-    challengesCompleted: number,
-    activeChallenge: Challenge,
-    levelUp: () => void,
-    startNewChallenge: () => void,
-    resetChallenge: () => void,
-    completeChallenge: () => void,
+    level: number;
+    currentExperience: number;
+    experienceToNextLevel: number;
+    challengesCompleted: number;
+    activeChallenge: Challenge;
+    levelUp: () => void;
+    startNewChallenge: () => void;
+    resetChallenge: () => void;
+    completeChallenge: () => void;
 }
 
 interface ChallengesProviderProps {
